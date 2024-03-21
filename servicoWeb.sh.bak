@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Verificando atualizações no sistema ... "
+apt update
+
+echo "Instalando atualizações do sistema ... "
+apt upgrade -y
+
+echo "Instalando o serviço web (Apache) ... "
+apt install apache2 -y
+
+
+
